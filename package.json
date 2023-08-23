@@ -1,0 +1,25 @@
+{
+  "name": "chat-support-backend",
+  "version": "1.0.0",
+  "description": "support-chat-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/almashayatjaved/Freatures_new.git"
+  },
+  "author": "almas-javed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almashayatjaved/Freatures_new/issues"
+  },
+  "homepage": "https://github.com/almashayatjaved/Freatures_new#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pusher": "^5.1.3"
+  }
+}
