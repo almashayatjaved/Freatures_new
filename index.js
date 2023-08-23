@@ -29,6 +29,6 @@ app.post('/api/messages', async()=>{
       return res.json([]);
 })
 
-console.log('Listening to port 8000')
+console.log('Listening to port 8000 yeeeaaaahhhh')
 
 app.listen(8000)
