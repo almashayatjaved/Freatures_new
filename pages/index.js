@@ -43,7 +43,7 @@ export default function Home() {
       <form onSubmit={send} className='d-flex'>
         <input className="form-control" placeholder="Write a message!" value={message} onChange={e=>{e.target.value}}/>
         <input type='submit' value={'Send'}/>
-        <p style={{fontSize:'12px'}}>Almas is here</p>
+        <p style={{fontSize:'12px',fontWeight:'bold'}}>Almas is here</p>
       </form>
     </div>
   );
