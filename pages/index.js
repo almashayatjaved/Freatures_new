@@ -23,8 +23,8 @@ export default function Home() {
       </Head>
       <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style={{minHeight:'500px'}}>
         <div class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom justify-content-between">
-          <input  class="fs-5 fw-semibold" value={username} onChange={e=>setUsername(e.target.value)}/>
-          <input  class="fs-5 fw-semibold" value={username} onChange={e=>setUsername(e.target.value)}/>
+          <input  class="fs-5 fw-semibold text-center" value={username} onChange={e=>setUsername(e.target.value)}/>
+          <input  class="fs-5 fw-semibold text-center" value={username} onChange={e=>setUsername(e.target.value)}/>
         </div>
         <div class="list-group list-group-flush border-bottom scrollarea">
          { messages.map(message => {
@@ -43,7 +43,7 @@ export default function Home() {
       
       <form onSubmit={send} className='d-flex'>
         <input className="form-control" placeholder="Write a message!" value={message} onChange={e=>{e.target.value}}/>
-        <input className="bg-primary text-white border border-0 px-3" type='submit' value={'Send'}/>
+        <input className="bg-primary text-white border border-0 px-3 rounded " type='submit' value={'Send'}/>
        
       </form>
     </div>
