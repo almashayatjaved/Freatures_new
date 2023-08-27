@@ -22,7 +22,8 @@ export default function Home() {
         />
       </Head>
       <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style={{minHeight:'500px'}}>
-        <div class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
+        <div class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom justify-content-between">
+          <input  class="fs-5 fw-semibold" value={username} onChange={e=>setUsername(e.target.value)}/>
           <input  class="fs-5 fw-semibold" value={username} onChange={e=>setUsername(e.target.value)}/>
         </div>
         <div class="list-group list-group-flush border-bottom scrollarea">
